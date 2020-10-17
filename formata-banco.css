@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz&display=swap');
+
+body {
+ font-family: "Yanone Kaffeesatz";
+ margin: 0;
+ font-size: 18px;
+}
+
+h1 {
+ text-align: center;
+ border-bottom: 1px solid #777;
+ background: #857db1;
+ box-shadow: 0 0 5px 5px #0f083b;
+ margin: 0;
+ text-shadow: 1px 1px 1px rgba(255, 255, 255, 0.5);
+ margin-bottom: 20px;
+}
+
+label.alinha {
+ width: 160px;
+ display: inline-block;
+	margin-top: 15px;
+	text-align: right;
+}
+
+input, button {
+ font-family: "Yanone Kaffeesatz";
+}
+
+fieldset {
+ width: 42%;
+ margin: 30px auto;
+ padding: 20px;
+ border-radius: 10px;
+ background: rgba(133,125,177,0.5);
+ box-shadow: 5px 5px 5px #0f083b;
+ padding-bottom: 5px;
+}
+
+button {
+ font-size: 18px;
+ font-weight: bold;
+	width: 250px;
+	height: 30px;
+	margin: auto;
+	margin-top: 10px;
+	display: block;
+}
+
+p {
+ width: 50%;
+ border: 1px solid #777;
+ padding: 20px;
+	margin: 20px auto;
+	text-align: center;
+}
+
+span {
+ color: #0f083b;
+ font-weight: bold;
+ font-style: italic;
+}
+
+/*usando seletores de atributos*/
+input[name="nome-medico"], input[name="nome-paciente"], input[name="pesquisa-medico"] {
+	width: 300px;
+}
+
+
+
